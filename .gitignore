@@ -1,0 +1,9 @@
+node_modules
+analytics-services/node_modules
+e-commerce-services/node_modules
+message-services/node_modules
+notification-services/node_modules
+payment-services/node_modules
+ride-booking-services/node_modules
+search-services/node_modules
+user-services/node_modules

@@ -1,0 +1,23 @@
+{
+  "name": "notifications-service",
+  "version": "1.0.0",
+  "description": "An implementation of a Notification Service for sending notifications, including an endpoint to handle the POST /notify request.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "prod": "node src/index.js"
+  },
+  "author": "Kislay (C)",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "node": "^22.3.0",
+    "nodemon": "^3.1.3"
+  }
+}

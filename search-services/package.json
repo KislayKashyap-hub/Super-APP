@@ -1,0 +1,25 @@
+{
+  "name": "search-services",
+  "version": "1.0.0",
+  "description": "implementation of a search service for a microservices architecture with the necessary endpoints, including a GET /search endpoint.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "prod": "node src/index.js"
+  },
+  "author": "Kislay (C)",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.7.0",
+    "node": "^22.3.0",
+    "nodemon": "^3.1.3"
+  }
+}
